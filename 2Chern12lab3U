@@ -1,0 +1,54 @@
+Script started on 2023-01-31 00:36:32+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ exitrm log[2Pjobs[2Pfgjobskill %2 %3[6Pjobskill -18 %1[7Pjobskill -19 %1[2P %1[2Pl[K(while true; do echo -n C >> log; sleep 1; done) &[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CB
+[C[C[C[C[C[C[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobs[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(while true; do echo -n B >> log; sleep 1; done) &[K[K
+[?2004l^Z
+[1]+  Stopped                 ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ bg
+[?2004l[1]+ ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ bg(while true; do echo -n B >> log; sleep 1; done)& &[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >> log; sleep 1; don[1P[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC >> log; sleep 1; do[1@n[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[2] 26457
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobs
+[?2004l[1]-  Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[2]+  Running                 ( while true; do
+    echo -n C >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ renice 10 -p 26457
+[?2004l26457 (process ID) old priority 0, new priority 10
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ renice 10 -p 26457jobs[K(while true; do echo -n C >> log; sleep 1; done) &[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ bg[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(while true; do echo -n B >> log; sleep 1; done)[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm log[2Pjobs[2Pfgjobskill %2 %3[K[K[4Pjobskill -18 %1[1P %19 %1[C[C[C[K2
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill -19 %2renice 10 -p 26457jobs[K(while true; do echo -n C >> log; sleep 1; done) &[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobs[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[1]-  Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[2]+  Stopped                 ( while true; do
+    echo -n C >> log; sleep 1;
+done )
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ fg
+[?2004l( while true; do
+    echo -n C >> log; sleep 1;
+done )
+^C
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobs
+[?2004l[1]+  Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ g[Kfg
+[?2004l( while true; do
+    echo -n B >> log; sleep 1;
+done )
+^C
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ fgjobs
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ exit
+[?2004lexit
+
+Script done on 2023-01-31 00:40:54+03:00 [COMMAND_EXIT_CODE="0"]

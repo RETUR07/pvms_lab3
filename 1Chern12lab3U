@@ -1,0 +1,98 @@
+Script started on 2023-01-31 00:26:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [7mscript -ttimelog1Chern12lab3U 1Chern12lab3U[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -ttimelog1Chern12lab3U 1Chern12lab3U
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K^V^[[200~script -ttimelog1Chern12lab3U 1Chern12lab3U
+[?2004l[200~script: command not found
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ ~[K(while true; do echo -n A >> log; sleep1[K 1; d one)
+[?2004l^Z
+[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ bg
+[?2004l[1]+ ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jpbs
+[?2004lCommand 'jpbs' not found, did you mean:
+  command 'jps' from deb openjdk-11-jdk-headless (11.0.17+8-1ubuntu2~22.04)
+  command 'jps' from deb openjdk-17-jdk-headless (17.0.5+8-2ubuntu1~22.04)
+  command 'jps' from deb openjdk-18-jdk-headless (18.0.2+9-2~22.04)
+  command 'jps' from deb openjdk-19-jdk-headless (19.0.1+10-1ubuntu1~22.04)
+  command 'jps' from deb openjdk-8-jdk-headless (8u352-ga-1~22.04)
+  command 'apbs' from deb apbs (3.0.0+dfsg1-3build2)
+  command 'gpbs' from deb gnustep-back-common (0.29.0-2)
+Try: sudo apt install <deb name>
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jpbs[1Pbsobs
+[?2004l[1]+  Running                 ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ while [K[K[K[K[K[K()w)h)i)l)e) )t)r)u)e);) )d)o) )e)c)h)o) )-)n) )B) )>)>) )l)o)g);) )s)l)e)e)p) )1);) ) [A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd)o)n)e)[C &
+[?2004l[2] 25722
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ (while true; do echo -n B >> log; sleep 1; done) &^C[?2004l[?2004h[?2004l
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ (while true; do echo -n B >> log; sleep 1; done) &[K&[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >> log; sleep 1; don[1P[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CC >> log; sleep 1; do[1@n[A]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[3] 25874
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill
+[?2004lkill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill -l
+[?2004l 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+ 6) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+11) SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+16) SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+21) SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+31) SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+38) SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+43) SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+48) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+63) SIGRTMAX-1	64) SIGRTMAX	
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill -l[K %1
+[?2004lbash: kill: : invalid signal specification
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill - %11 %19 %1
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobs
+[?2004l[1]+  Stopped                 ( while true; do
+    echo -n A >> log; sleep 1;
+done )
+[2]   Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[3]-  Running                 ( while true; do
+    echo -n C >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobskill -19 %1[1P %18 %1
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ jobs
+[?2004l[1]+  Running                 ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]   Running                 ( while true; do
+    echo -n B >> log; sleep 1;
+done ) &
+[3]-  Running                 ( while true; do
+    echo -n C >> log; sleep 1;
+done ) &
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill %2 @[K%3
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ kill %2 %3[6Pjobs
+[?2004l[1]+  Running                 ( while true; do
+    echo -n A >> log; sleep 1;
+done ) &
+[2]   Terminated              ( while true; do
+    echo -n B >> log; sleep 1;
+done )
+[3]-  Terminated              ( while true; do
+    echo -n C >> log; sleep 1;
+done )
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ fg
+[?2004l( while true; do
+    echo -n A >> log; sleep 1;
+done )
+^C
+[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ fgjobskill %2 %3[6Pjobs
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ rm log
+[?2004l[?2004h]0;retur@retur-virtual-machine: ~/lab3[01;32mretur@retur-virtual-machine[00m:[01;34m~/lab3[00m$ exit
+[?2004lexit
+
+Script done on 2023-01-31 00:36:20+03:00 [COMMAND_EXIT_CODE="0"]
